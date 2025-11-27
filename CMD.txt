@@ -1,0 +1,22 @@
+C:\Users\Lenovo>cd C:\Users\Lenovo\Desktop\map
+
+C:\Users\Lenovo\Desktop\map>python -m http.server 8000
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+::1 - - [24/Nov/2025 06:56:49] code 404, message File not found
+::1 - - [24/Nov/2025 06:56:49] "GET /idk.htmlhttp://localhost:8000/idk.html HTTP/1.1" 404 -
+::1 - - [24/Nov/2025 06:56:49] code 404, message File not found
+::1 - - [24/Nov/2025 06:56:49] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [24/Nov/2025 06:57:47] "GET /idk.html HTTP/1.1" 200 -
+::1 - - [24/Nov/2025 06:57:47] code 404, message File not found
+::1 - - [24/Nov/2025 06:57:47] "GET /block1/img2.jpg HTTP/1.1" 404 -
+::1 - - [24/Nov/2025 06:57:47] code 404, message File not found
+::1 - - [24/Nov/2025 06:57:47] "GET /block2/img1.jpg HTTP/1.1" 404 -
+::1 - - [24/Nov/2025 06:57:47] "GET /block1/img1.jpg HTTP/1.1" 200 -
+
+
+
+cd C:\Users\Lenovo\Desktop\map
+python -m http.server 8000
+
+http://localhost:8000/idk.html
+http://localhost:8000/campus-tour.html

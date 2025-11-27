@@ -1,0 +1,60 @@
+I am planning to build a service which hosts the important locations in my campus
+all the locations are present in the @exported folder
+and 
+the service shld be built in a way so that
+other people can just scan a QR code and connect to my service over the internet
+
+now it shld look like this
+there are 6 blocks
+Block 1 
+Block 2
+Block 3
+Block 4
+Block 5
+Block 6
+Architecture Block
+DevDan Block
+and The Path from the Main Gate to Block 1
+and inside exported/outside
+there is OpenAuditorium and StudentSquare
+
+I want it all to be present in a menu kinda thingy
+
+menu:
+shld not be the normal big list
+instead
+aestheically with a dynamic transclusecnt back like it be like a scroll kinda menu
+so that it doesnt take up much space
+
+and whenever i hover over the menu option you need to show the entrace of that particular block
+photos of which i am yet to upload
+
+Viewer:
+now the place where we view the photo
+let there be a on screen input which is clickable up down left right buttons to turn in that direction
+in addition to that
+we shld be able to move around with the mouse, arrow keys and wasd
+
+always display the title of the image alone on the top since that is the name of the location
+again display title with a frosted window back
+
+In the top right let there be a logo which is a png image i am yet to upload which belomgs to my university
+
+in the middle right and left
+let there be buttons which allow me to move between location within the same block (visible to u as photos within the same folder)
+
+Bottom right 
+let there be an information button
+which will show the information in text and hyperlink which i will give later
+
+
+
+Let the UI be very clutter free
+and leave as much space as possible free screen estate so that pics are visible but at the same time no button is inaccessible (hide them while user is interacting or its playing on its own)
+
+when no one interacts 
+cycle thru the photos and manuever the photo to "show around" the photo
+
+use the @thumbnail folder to load them faster
+and use manifest json to see which thumbnail relates to which photo address
+give me any extra features that can be added to each of this 

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>360° Campus Viewer</title>
+
+  <!-- Pannellum Library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
+  <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
+  <style>
+    :root {
+      --sidebar-bg: #f8f9fa;
+      --sidebar-width: 260px;
+      --accent-color: #007bff;
+      --hover-color: #0056b3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      background-color: #ffffff;
+      overflow: hidden;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: var(--sidebar-width);
+      background: var(--sidebar-bg);
+      padding: 20px;
+      border-right: 1px solid #dee2e6;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex-shrink: 0;
+      overflow-y: auto;
+    }
+
+    .sidebar h3 {
+      margin: 0 0 15px 0;
+      color: #333;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .block-btn {
+      padding: 14px 16px;
+      text-align: left;
+      background: white;
+      border: 2px solid #ced4da;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-size: 14px;
+      font-weight: 500;
+      color: #495057;
+    }
+
+    .block-btn:hover {
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+      transform: translateX(2px);
+    }
+
+    .block-btn.active {
+      background: var(--accent-color);
+      color: white;
+      border-color: var(--accent-color);
+    }
+
+    /* Content Area */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .header {
+      padding: 20px 20px 15px 20px;
+      border-bottom: 2px solid #eee;
+      background: white;
+      flex-shrink: 0;
+    }
+
+    .header h2 {
+      margin: 0 0 5px 0;
+      font-size: 1.5rem;
+      color: #212529;
+    }
+
+    .header .subtitle {
+      color: #6c757d;
+      font-size: 0.9rem;
+    }
+
+    .gallery-container {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .image-card {
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      transition: all 0.2s ease;
+      cursor: pointer;
+      background: #f8f9fa;
+      position: relative;
+    }
+
+    .image-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      border-color: var(--accent-color);
+    }
+
+    .image-thumb {
+      width: 100%;
+      height: 140px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .image-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .loading-placeholder {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 0.85rem;
+      opacity: 0.8;
+      z-index: 1;
+    }
+
+    .image-name {
+      padding: 12px;
+      font-size: 13px;
+      font-weight: 500;
+      text-align: center;
+      color: #495057;
+      background: white;
+    }
+
+    /* Viewer Overlay */
+    #viewer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: black;
+      display: none;
+      z-index: 2000;
+      animation: fadeIn 0.2s ease;
+    }
+
+    #viewer-overlay.active {
+      display: block;
+    }
+
+    #closeBtn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      color: #333;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-weight: 600;
+      z-index: 2001;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease;
+      font-size: 14px;
+    }
+
+    #closeBtn:hover {
+      background: white;
+      transform: scale(1.05);
+    }
+
+    #panorama {
+      width: 100%;
+      height: 100%;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Loading indicator */
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 0.6s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h3>📂 Select Tour</h3>
+    <!-- Buttons will be dynamically generated -->
+  </div>
+
+  <div class="content">
+    <div class="header">
+      <h2 id="block-title">Select a tour to view panoramas</h2>
+      <div class="subtitle" id="block-subtitle">Choose from the sidebar to get started</div>
+    </div>
+    <div class="gallery-container">
+      <div id="gallery" class="image-grid"></div>
+    </div>
+  </div>
+
+  <div id="viewer-overlay">
+    <button id="closeBtn" onclick="closeViewer()">✕ Close</button>
+    <div id="panorama"></div>
+  </div>
+
+  <script>
+    // --- CONFIGURATION ---
+    let manifest = null;
+    let viewer = null;
+
+    // Initialize
+    async function init() {
+      try {
+        const response = await fetch('manifest.json');
+        manifest = await response.json();
+        renderSidebar();
+
+        // Auto-load first block
+        if (manifest.blocks.length > 0) {
+          loadBlock(manifest.blocks[0].id);
+        }
+      } catch (e) {
+        console.error("Failed to load manifest:", e);
+        document.naygetElementById('block-title').innerText = "Error loading data";
+        document.getElementById('block-subtitle').innerText = "Please check if manifest.json exists";
+      }
+    }
+
+    function renderSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.innerHTML = '<h3>📂 Select Tour</h3>';
+
+      manifest.blocks.forEach(block => {
+        const btn = document.createElement('button');
+        btn.className = 'block-btn';
+        btn.id = `btn-${block.id}`;
+        btn.onclick = () => loadBlock(block.id);
+
+        btn.innerHTML = `
+          ${block.label}
+          <div style="font-size:11px;color:#6c757d;margin-top:4px;">${block.labs.length} scenes</div>
+        `;
+
+        sidebar.appendChild(btn);
+      });
+    }
+
+    // Load block images
+    function loadBlock(blockId) {
+      const block = manifest.blocks.find(b => b.id === blockId);
+      if (!block) return;
+
+      const gallery = document.getElementById('gallery');
+      const title = document.getElementById('block-title');
+      const subtitle = document.getElementById('block-subtitle');
+
+      // Update Active Button
+      document.querySelectorAll('.block-btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = document.getElementById(`btn-${blockId}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      // Update Header
+      title.innerText = block.label;
+      subtitle.innerText = `${block.labs.length} 360° panoramic images`;
+
+      // Clear gallery
+      gallery.innerHTML = '';
+
+      // Batch rendering
+      const fragment = document.createDocumentFragment();
+
+      block.labs.forEach(scene => {
+        const card = document.createElement('div');
+        card.className = 'image-card';
+        card.onclick = () => open360(scene.panorama, scene.label);
+
+        const thumbContainer = document.createElement('div');
+        thumbContainer.className = 'image-thumb';
+
+        const img = document.createElement('img');
+        img.src = scene.thumbnail || scene.panorama;
+        img.loading = 'lazy';
+        img.alt = scene.label;
+
+        // Loading indicator
+        const placeholder = document.createElement('div');
+        placeholder.className = 'loading-placeholder';
+        placeholder.innerHTML = '<div class="spinner"></div>';
+        thumbContainer.appendChild(placeholder);
+
+        img.onload = () => placeholder.remove();
+        img.onerror = () => placeholder.innerHTML = '⚠️';
+
+        thumbContainer.appendChild(img);
+
+        const label = document.createElement('div');
+        label.className = 'image-name';
+        label.innerText = scene.label;
+
+        card.appendChild(thumbContainer);
+        card.appendChild(label);
+        fragment.appendChild(card);
+      });
+
+      gallery.appendChild(fragment);
+    }
+
+    // Open 360° viewer with Pannellum
+    function open360(imageUrl, title) {
+      const overlay = document.getElementById("viewer-overlay");
+      overlay.classList.add('active');
+
+      if (viewer) {
+        viewer.destroy();
+        viewer = null;
+      }
+
+      viewer = pannellum.viewer('panorama', {
+        "type": "equirectangular",
+        "panorama": imageUrl,
+        "autoLoad": true,
+        "showZoomCtrl": true,
+        "showFullscreenCtrl": true,
+        "mouseZoom": true,
+        "compass": true,
+        "title": title,
+        "hfov": 100,
+      });
+    }
+
+    // Close viewer
+    function closeViewer() {
+      const overlay = document.getElementById("viewer-overlay");
+      overlay.classList.remove('active');
+      if (viewer) {
+        viewer.destroy();
+        viewer = null;
+      }
+    }
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && viewer) {
+        closeViewer();
+      }
+    });
+
+    // Start
+    init();
+  </script>
+
+</body>
+
+</html>
