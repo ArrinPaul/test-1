@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, Info, Play, Pause, Plus, Minus } from 'lucide-react';
 import { useTourState } from '../../hooks/useTourState';
 
 export const ArrowControls = () => {
-    const { rotateCamera, zoomCamera, isAutoRotating, setAutoRotation, startRotation, stopRotation } = useTourState();
+    const { zoomCamera, isAutoRotating, setAutoRotation, startRotation, stopRotation, nextImage, previousImage } = useTourState();
     const [showInfo, setShowInfo] = useState(false);
 
 
@@ -101,19 +101,18 @@ export const ArrowControls = () => {
                         <ChevronUp size={24} />
                     </button>
 
-                    {/* Bottom Row: Left, Down, Right Arrows */}
+                    {/* Bottom Row: Prev, Down, Next */}
                     <div style={{ display: 'flex', gap: '0.25rem' }}>
+                        {/* Previous Image Button */}
                         <button
-                            onMouseDown={() => startRotation('left')}
-                            onMouseUp={stopRotation}
-                            onMouseLeave={stopRotation}
-                            onTouchStart={() => startRotation('left')}
-                            onTouchEnd={stopRotation}
+                            onClick={previousImage}
                             style={arrowButtonStyle}
-                            aria-label="Rotate left"
+                            aria-label="Previous Image"
                         >
                             <ChevronLeft size={24} />
                         </button>
+
+                        {/* Look Down Button */}
                         <button
                             onMouseDown={() => startRotation('down')}
                             onMouseUp={stopRotation}
@@ -125,14 +124,12 @@ export const ArrowControls = () => {
                         >
                             <ChevronDown size={24} />
                         </button>
+
+                        {/* Next Image Button */}
                         <button
-                            onMouseDown={() => startRotation('right')}
-                            onMouseUp={stopRotation}
-                            onMouseLeave={stopRotation}
-                            onTouchStart={() => startRotation('right')}
-                            onTouchEnd={stopRotation}
+                            onClick={nextImage}
                             style={arrowButtonStyle}
-                            aria-label="Rotate right"
+                            aria-label="Next Image"
                         >
                             <ChevronRight size={24} />
                         </button>

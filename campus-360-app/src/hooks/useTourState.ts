@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { preloadImages } from '../utils/textureLoader';
 
 export interface TourState {
   currentBlockId: string | null;
@@ -46,6 +47,29 @@ export const useTourState = create<TourState>((set, get) => ({
   },
   setImage: (imageId) => {
     set({ currentImageId: imageId });
+
+    // Preload adjacent images
+    const state = get();
+    if (state.manifest && state.currentBlockId) {
+      const currentBlock = state.manifest.blocks.find((b: any) => b.id === state.currentBlockId);
+      if (currentBlock && currentBlock.labs) {
+        const currentIndex = currentBlock.labs.findIndex((lab: any) => lab.id === imageId);
+        if (currentIndex !== -1) {
+          const nextIndex = (currentIndex + 1) % currentBlock.labs.length;
+          const prevIndex = currentIndex === 0 ? currentBlock.labs.length - 1 : currentIndex - 1;
+
+          const nextImage = currentBlock.labs[nextIndex];
+          const prevImage = currentBlock.labs[prevIndex];
+
+          const urlsToPreload: string[] = [];
+          if (nextImage) urlsToPreload.push(nextImage.panorama);
+          if (prevImage) urlsToPreload.push(prevImage.panorama);
+
+          preloadImages(urlsToPreload);
+        }
+      }
+    }
+
     // Add to history
     set((state) => {
       const newHistory = [imageId, ...state.history.filter(id => id !== imageId)].slice(0, 5);

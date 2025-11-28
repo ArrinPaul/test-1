@@ -7,7 +7,7 @@ import { useTourState } from '../../hooks/useTourState';
 export const Controls: React.FC = () => {
     const { camera, gl } = useThree();
     const controlsRef = useRef<any>(null);
-    const { isIdle, cameraRotation, cameraZoom, isAutoRotating, activeRotation } = useTourState();
+    const { isIdle, cameraRotation, cameraZoom, isAutoRotating, activeRotation, nextImage, previousImage } = useTourState();
 
     // Listen to camera rotation triggers from UI buttons
     useEffect(() => {
@@ -72,20 +72,32 @@ export const Controls: React.FC = () => {
         return () => canvas.removeEventListener('wheel', handleWheel);
     }, [camera, gl]);
 
-    // Keyboard state tracking
+    // Keyboard state tracking for continuous movement (Up/Down)
     const keysPressed = useRef<Set<string>>(new Set());
 
+    // Handle discrete keyboard events (Next/Prev Image)
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
-            keysPressed.current.add(e.key.toLowerCase());
-            // Also add Arrow keys as they are
+            const key = e.key.toLowerCase();
+
+            // Continuous keys
+            keysPressed.current.add(key);
             if (e.key.startsWith('Arrow')) {
                 keysPressed.current.add(e.key);
+            }
+
+            // Discrete actions
+            if (key === 'arrowleft' || key === 'a') {
+                previousImage();
+            }
+            if (key === 'arrowright' || key === 'd') {
+                nextImage();
             }
         };
 
         const handleKeyUp = (e: KeyboardEvent) => {
-            keysPressed.current.delete(e.key.toLowerCase());
+            const key = e.key.toLowerCase();
+            keysPressed.current.delete(key);
             if (e.key.startsWith('Arrow')) {
                 keysPressed.current.delete(e.key);
             }
@@ -97,7 +109,7 @@ export const Controls: React.FC = () => {
             window.removeEventListener('keydown', handleKeyDown);
             window.removeEventListener('keyup', handleKeyUp);
         };
-    }, []);
+    }, [nextImage, previousImage]);
 
     // Auto-rotate, Manual Continuous Rotation, and Keyboard logic
     useFrame(() => {
@@ -110,13 +122,15 @@ export const Controls: React.FC = () => {
             switch (activeRotation) {
                 case 'up': camera.rotateX(rotationSpeed); break;
                 case 'down': camera.rotateX(-rotationSpeed); break;
+                // Left/Right UI buttons now trigger next/prev image, so we don't need rotation here for them
+                // But keeping them just in case activeRotation is set elsewhere
                 case 'left': camera.rotateY(rotationSpeed); break;
                 case 'right': camera.rotateY(-rotationSpeed); break;
             }
             rotated = true;
         }
 
-        // 2. Check Keyboard Controls
+        // 2. Check Keyboard Controls (Only Up/Down for rotation now)
         const keys = keysPressed.current;
         if (keys.has('arrowup') || keys.has('w') || keys.has('ArrowUp')) {
             camera.rotateX(rotationSpeed);
@@ -126,14 +140,7 @@ export const Controls: React.FC = () => {
             camera.rotateX(-rotationSpeed);
             rotated = true;
         }
-        if (keys.has('arrowleft') || keys.has('a') || keys.has('ArrowLeft')) {
-            camera.rotateY(rotationSpeed);
-            rotated = true;
-        }
-        if (keys.has('arrowright') || keys.has('d') || keys.has('ArrowRight')) {
-            camera.rotateY(-rotationSpeed);
-            rotated = true;
-        }
+        // Removed Left/Right rotation from here
 
         // 3. Auto-rotation (only if not manually rotating)
         if (!rotated && isAutoRotating) {
