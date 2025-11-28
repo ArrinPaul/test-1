@@ -1,0 +1,5 @@
+<!-- Placeholder logo - replace with your university logo -->
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#1e40af" rx="8"/>
+  <text x="32" y="38" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">LOGO</text>
+</svg>

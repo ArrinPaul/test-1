@@ -11,6 +11,7 @@ type Props = {
     defaultYaw?: number;
     defaultPitch?: number;
     onPositionChange?: (yaw: number, pitch: number) => void;
+    onReady?: (viewer: any) => void;
 };
 
 export default function ViewerWrapper({ src, onClose, hotspots = [], defaultYaw, defaultPitch, onPositionChange }: Props) {
@@ -39,7 +40,8 @@ export default function ViewerWrapper({ src, onClose, hotspots = [], defaultYaw,
         });
 
         viewerRef.current = viewer;
-
+        
+        if (onReady) onReady(viewer);
         const markersPlugin = viewer.getPlugin(MarkersPlugin) as MarkersPlugin;
 
         markersPlugin.addEventListener("select-marker", (e: any) => {
