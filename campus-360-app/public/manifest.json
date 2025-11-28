@@ -1,0 +1,1754 @@
+{
+  "campusName": "Campus 360",
+  "blocks": [
+    {
+      "id": "gatetologo",
+      "label": "Gate to Logo",
+      "short": "Gate to Logo",
+      "svgAnchor": {
+        "x": 150,
+        "y": 130
+      },
+      "svgPath": "M 100 170 L 180 170 L 180 250 L 100 250 Z",
+      "labs": [
+        {
+          "id": "gatetologo-1",
+          "label": "img1.jpg",
+          "thumbnail": "exported/thumbnails/img1.jpg",
+          "panorama": "exported/Gate_to_Logo/img1.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img1.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-2",
+          "label": "img2.jpg",
+          "thumbnail": "exported/thumbnails/img2.jpg",
+          "panorama": "exported/Gate_to_Logo/img2.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img2.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-3",
+          "label": "img3.jpg",
+          "thumbnail": "exported/thumbnails/img3.jpg",
+          "panorama": "exported/Gate_to_Logo/img3.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img3.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-4",
+          "label": "img4.jpg",
+          "thumbnail": "exported/thumbnails/img4.jpg",
+          "panorama": "exported/Gate_to_Logo/img4.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img4.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-5",
+          "label": "img5.jpg",
+          "thumbnail": "exported/thumbnails/img5.jpg",
+          "panorama": "exported/Gate_to_Logo/img5.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img5.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-6",
+          "label": "img6.jpg",
+          "thumbnail": "exported/thumbnails/img6.jpg",
+          "panorama": "exported/Gate_to_Logo/img6.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img6.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-8",
+          "label": "img8.jpg",
+          "thumbnail": "exported/thumbnails/img8.jpg",
+          "panorama": "exported/Gate_to_Logo/img8.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img8.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-9",
+          "label": "img9.jpg",
+          "thumbnail": "exported/thumbnails/img9.jpg",
+          "panorama": "exported/Gate_to_Logo/img9.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img9.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-10",
+          "label": "img10.jpg",
+          "thumbnail": "exported/thumbnails/img10.jpg",
+          "panorama": "exported/Gate_to_Logo/img10.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img10.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        },
+        {
+          "id": "gatetologo-11",
+          "label": "img11.jpg",
+          "thumbnail": "exported/thumbnails/img11.jpg",
+          "panorama": "exported/Gate_to_Logo/img11.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img11.jpg",
+            "directory": "Gate_to_Logo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "block1",
+      "label": "Block 1",
+      "short": "Block 1",
+      "svgAnchor": {
+        "x": 200,
+        "y": 160
+      },
+      "svgPath": "M 120 180 L 200 180 L 200 260 L 120 260 Z",
+      "labs": [
+        {
+          "id": "block1-12",
+          "label": "img12.jpg",
+          "thumbnail": "exported/thumbnails/img12.jpg",
+          "panorama": "exported/Block1/img12.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img12.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-13",
+          "label": "img13.jpg",
+          "thumbnail": "exported/thumbnails/img13.jpg",
+          "panorama": "exported/Block1/img13.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img13.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-43",
+          "label": "img43.jpg",
+          "thumbnail": "exported/thumbnails/img43.jpg",
+          "panorama": "exported/Block1/img43.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img43.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-44",
+          "label": "img44.jpg",
+          "thumbnail": "exported/thumbnails/img44.jpg",
+          "panorama": "exported/Block1/img44.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img44.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-45",
+          "label": "img45.jpg",
+          "thumbnail": "exported/thumbnails/img45.jpg",
+          "panorama": "exported/Block1/img45.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img45.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-46",
+          "label": "img46.jpg",
+          "thumbnail": "exported/thumbnails/img46.jpg",
+          "panorama": "exported/Block1/img46.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img46.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-47",
+          "label": "img47.jpg",
+          "thumbnail": "exported/thumbnails/img47.jpg",
+          "panorama": "exported/Block1/img47.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img47.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-49",
+          "label": "img49.jpg",
+          "thumbnail": "exported/thumbnails/img49.jpg",
+          "panorama": "exported/Block1/img49.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img49.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-50",
+          "label": "img50.jpg",
+          "thumbnail": "exported/thumbnails/img50.jpg",
+          "panorama": "exported/Block1/img50.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img50.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-51",
+          "label": "img51.jpg",
+          "thumbnail": "exported/thumbnails/img51.jpg",
+          "panorama": "exported/Block1/img51.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img51.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-53",
+          "label": "img53.jpg",
+          "thumbnail": "exported/thumbnails/img53.jpg",
+          "panorama": "exported/Block1/img53.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img53.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-56",
+          "label": "img56.jpg",
+          "thumbnail": "exported/thumbnails/img56.jpg",
+          "panorama": "exported/Block1/img56.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img56.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-57",
+          "label": "img57.jpg",
+          "thumbnail": "exported/thumbnails/img57.jpg",
+          "panorama": "exported/Block1/img57.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img57.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-58",
+          "label": "img58.jpg",
+          "thumbnail": "exported/thumbnails/img58.jpg",
+          "panorama": "exported/Block1/img58.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img58.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-59",
+          "label": "img59.jpg",
+          "thumbnail": "exported/thumbnails/img59.jpg",
+          "panorama": "exported/Block1/img59.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img59.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-61",
+          "label": "img61.jpg",
+          "thumbnail": "exported/thumbnails/img61.jpg",
+          "panorama": "exported/Block1/img61.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img61.jpg",
+            "directory": "Block1"
+          }
+        },
+        {
+          "id": "block1-62",
+          "label": "img62.jpg",
+          "thumbnail": "exported/thumbnails/img62.jpg",
+          "panorama": "exported/Block1/img62.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img62.jpg",
+            "directory": "Block1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "devdan",
+      "label": "Devdan",
+      "short": "Devdan",
+      "svgAnchor": {
+        "x": 250,
+        "y": 190
+      },
+      "svgPath": "M 140 190 L 220 190 L 220 270 L 140 270 Z",
+      "labs": [
+        {
+          "id": "devdan-14",
+          "label": "img14.jpg",
+          "thumbnail": "exported/thumbnails/img14.jpg",
+          "panorama": "exported/Devdan/img14.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img14.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-15",
+          "label": "img15.jpg",
+          "thumbnail": "exported/thumbnails/img15.jpg",
+          "panorama": "exported/Devdan/img15.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img15.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-16",
+          "label": "img16.jpg",
+          "thumbnail": "exported/thumbnails/img16.jpg",
+          "panorama": "exported/Devdan/img16.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img16.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-17",
+          "label": "img17.jpg",
+          "thumbnail": "exported/thumbnails/img17.jpg",
+          "panorama": "exported/Devdan/img17.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img17.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-18",
+          "label": "img18.jpg",
+          "thumbnail": "exported/thumbnails/img18.jpg",
+          "panorama": "exported/Devdan/img18.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img18.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-19",
+          "label": "img19.jpg",
+          "thumbnail": "exported/thumbnails/img19.jpg",
+          "panorama": "exported/Devdan/img19.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img19.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-20",
+          "label": "img20.jpg",
+          "thumbnail": "exported/thumbnails/img20.jpg",
+          "panorama": "exported/Devdan/img20.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img20.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-21",
+          "label": "img21.jpg",
+          "thumbnail": "exported/thumbnails/img21.jpg",
+          "panorama": "exported/Devdan/img21.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img21.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-22",
+          "label": "img22.jpg",
+          "thumbnail": "exported/thumbnails/img22.jpg",
+          "panorama": "exported/Devdan/img22.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img22.jpg",
+            "directory": "Devdan"
+          }
+        },
+        {
+          "id": "devdan-23",
+          "label": "img23.jpg",
+          "thumbnail": "exported/thumbnails/img23.jpg",
+          "panorama": "exported/Devdan/img23.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img23.jpg",
+            "directory": "Devdan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "block6",
+      "label": "Block 6",
+      "short": "Block 6",
+      "svgAnchor": {
+        "x": 300,
+        "y": 220
+      },
+      "svgPath": "M 160 200 L 240 200 L 240 280 L 160 280 Z",
+      "labs": [
+        {
+          "id": "block6-24",
+          "label": "img24.jpg",
+          "thumbnail": "exported/thumbnails/img24.jpg",
+          "panorama": "exported/Block6/img24.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img24.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-25",
+          "label": "img25.jpg",
+          "thumbnail": "exported/thumbnails/img25.jpg",
+          "panorama": "exported/Block6/img25.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img25.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-26",
+          "label": "img26.jpg",
+          "thumbnail": "exported/thumbnails/img26.jpg",
+          "panorama": "exported/Block6/img26.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img26.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-27",
+          "label": "img27.jpg",
+          "thumbnail": "exported/thumbnails/img27.jpg",
+          "panorama": "exported/Block6/img27.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img27.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-28",
+          "label": "img28.jpg",
+          "thumbnail": "exported/thumbnails/img28.jpg",
+          "panorama": "exported/Block6/img28.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img28.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-29",
+          "label": "img29.jpg",
+          "thumbnail": "exported/thumbnails/img29.jpg",
+          "panorama": "exported/Block6/img29.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img29.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-30",
+          "label": "img30.jpg",
+          "thumbnail": "exported/thumbnails/img30.jpg",
+          "panorama": "exported/Block6/img30.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img30.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-31",
+          "label": "img31.jpg",
+          "thumbnail": "exported/thumbnails/img31.jpg",
+          "panorama": "exported/Block6/img31.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img31.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-32",
+          "label": "img32.jpg",
+          "thumbnail": "exported/thumbnails/img32.jpg",
+          "panorama": "exported/Block6/img32.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img32.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-33",
+          "label": "img33.jpg",
+          "thumbnail": "exported/thumbnails/img33.jpg",
+          "panorama": "exported/Block6/img33.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img33.jpg",
+            "directory": "Block6"
+          }
+        },
+        {
+          "id": "block6-34",
+          "label": "img34.jpg",
+          "thumbnail": "exported/thumbnails/img34.jpg",
+          "panorama": "exported/Block6/img34.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img34.jpg",
+            "directory": "Block6"
+          }
+        }
+      ]
+    },
+    {
+      "id": "block2",
+      "label": "Block 2",
+      "short": "Block 2",
+      "svgAnchor": {
+        "x": 350,
+        "y": 250
+      },
+      "svgPath": "M 180 210 L 260 210 L 260 290 L 180 290 Z",
+      "labs": [
+        {
+          "id": "block2-35",
+          "label": "img35.jpg",
+          "thumbnail": "exported/thumbnails/img35.jpg",
+          "panorama": "exported/Block2/img35.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img35.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-37",
+          "label": "img37.jpg",
+          "thumbnail": "exported/thumbnails/img37.jpg",
+          "panorama": "exported/Block2/img37.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img37.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-38",
+          "label": "img38.jpg",
+          "thumbnail": "exported/thumbnails/img38.jpg",
+          "panorama": "exported/Block2/img38.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img38.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-39",
+          "label": "img39.jpg",
+          "thumbnail": "exported/thumbnails/img39.jpg",
+          "panorama": "exported/Block2/img39.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img39.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-40",
+          "label": "img40.jpg",
+          "thumbnail": "exported/thumbnails/img40.jpg",
+          "panorama": "exported/Block2/img40.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img40.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-42",
+          "label": "img42.jpg",
+          "thumbnail": "exported/thumbnails/img42.jpg",
+          "panorama": "exported/Block2/img42.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img42.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-63",
+          "label": "img63.jpg",
+          "thumbnail": "exported/thumbnails/img63.jpg",
+          "panorama": "exported/Block2/img63.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img63.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-64",
+          "label": "img64.jpg",
+          "thumbnail": "exported/thumbnails/img64.jpg",
+          "panorama": "exported/Block2/img64.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img64.jpg",
+            "directory": "Block2"
+          }
+        },
+        {
+          "id": "block2-65",
+          "label": "img65.jpg",
+          "thumbnail": "exported/thumbnails/img65.jpg",
+          "panorama": "exported/Block2/img65.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img65.jpg",
+            "directory": "Block2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "block3",
+      "label": "Block 3",
+      "short": "Block 3",
+      "svgAnchor": {
+        "x": 400,
+        "y": 280
+      },
+      "svgPath": "M 200 220 L 280 220 L 280 300 L 200 300 Z",
+      "labs": [
+        {
+          "id": "block3-66",
+          "label": "img66.jpg",
+          "thumbnail": "exported/thumbnails/img66.jpg",
+          "panorama": "exported/Block3/img66.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img66.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-67",
+          "label": "img67.jpg",
+          "thumbnail": "exported/thumbnails/img67.jpg",
+          "panorama": "exported/Block3/img67.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img67.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-68",
+          "label": "img68.jpg",
+          "thumbnail": "exported/thumbnails/img68.jpg",
+          "panorama": "exported/Block3/img68.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img68.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-69",
+          "label": "img69.jpg",
+          "thumbnail": "exported/thumbnails/img69.jpg",
+          "panorama": "exported/Block3/img69.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img69.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-70",
+          "label": "img70.jpg",
+          "thumbnail": "exported/thumbnails/img70.jpg",
+          "panorama": "exported/Block3/img70.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img70.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-71",
+          "label": "img71.jpg",
+          "thumbnail": "exported/thumbnails/img71.jpg",
+          "panorama": "exported/Block3/img71.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img71.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-72",
+          "label": "img72.jpg",
+          "thumbnail": "exported/thumbnails/img72.jpg",
+          "panorama": "exported/Block3/img72.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img72.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-73",
+          "label": "img73.jpg",
+          "thumbnail": "exported/thumbnails/img73.jpg",
+          "panorama": "exported/Block3/img73.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img73.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-74",
+          "label": "img74.jpg",
+          "thumbnail": "exported/thumbnails/img74.jpg",
+          "panorama": "exported/Block3/img74.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img74.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-75",
+          "label": "img75.jpg",
+          "thumbnail": "exported/thumbnails/img75.jpg",
+          "panorama": "exported/Block3/img75.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img75.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-76",
+          "label": "img76.jpg",
+          "thumbnail": "exported/thumbnails/img76.jpg",
+          "panorama": "exported/Block3/img76.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img76.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-77",
+          "label": "img77.jpg",
+          "thumbnail": "exported/thumbnails/img77.jpg",
+          "panorama": "exported/Block3/img77.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img77.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-78",
+          "label": "img78.jpg",
+          "thumbnail": "exported/thumbnails/img78.jpg",
+          "panorama": "exported/Block3/img78.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img78.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-79",
+          "label": "img79.jpg",
+          "thumbnail": "exported/thumbnails/img79.jpg",
+          "panorama": "exported/Block3/img79.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img79.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-80",
+          "label": "img80.jpg",
+          "thumbnail": "exported/thumbnails/img80.jpg",
+          "panorama": "exported/Block3/img80.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img80.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-81",
+          "label": "img81.jpg",
+          "thumbnail": "exported/thumbnails/img81.jpg",
+          "panorama": "exported/Block3/img81.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img81.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-82",
+          "label": "img82.jpg",
+          "thumbnail": "exported/thumbnails/img82.jpg",
+          "panorama": "exported/Block3/img82.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img82.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-106",
+          "label": "img106.jpg",
+          "thumbnail": "exported/thumbnails/img106.jpg",
+          "panorama": "exported/Block3/img106.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img106.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-107",
+          "label": "img107.jpg",
+          "thumbnail": "exported/thumbnails/img107.jpg",
+          "panorama": "exported/Block3/img107.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img107.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-110",
+          "label": "img110.jpg",
+          "thumbnail": "exported/thumbnails/img110.jpg",
+          "panorama": "exported/Block3/img110.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img110.jpg",
+            "directory": "Block3"
+          }
+        },
+        {
+          "id": "block3-170",
+          "label": "img170.jpg",
+          "thumbnail": "exported/thumbnails/img170.jpg",
+          "panorama": "exported/Block3/img170.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img170.jpg",
+            "directory": "Block3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "block5",
+      "label": "Block 5",
+      "short": "Block 5",
+      "svgAnchor": {
+        "x": 450,
+        "y": 310
+      },
+      "svgPath": "M 220 230 L 300 230 L 300 310 L 220 310 Z",
+      "labs": [
+        {
+          "id": "block5-84",
+          "label": "img84.jpg",
+          "thumbnail": "exported/thumbnails/img84.jpg",
+          "panorama": "exported/Block5/img84.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img84.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-85",
+          "label": "img85.jpg",
+          "thumbnail": "exported/thumbnails/img85.jpg",
+          "panorama": "exported/Block5/img85.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img85.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-87",
+          "label": "img87.jpg",
+          "thumbnail": "exported/thumbnails/img87.jpg",
+          "panorama": "exported/Block5/img87.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img87.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-89",
+          "label": "img89.jpg",
+          "thumbnail": "exported/thumbnails/img89.jpg",
+          "panorama": "exported/Block5/img89.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img89.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-90",
+          "label": "img90.jpg",
+          "thumbnail": "exported/thumbnails/img90.jpg",
+          "panorama": "exported/Block5/img90.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img90.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-91",
+          "label": "img91.jpg",
+          "thumbnail": "exported/thumbnails/img91.jpg",
+          "panorama": "exported/Block5/img91.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img91.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-93",
+          "label": "img93.jpg",
+          "thumbnail": "exported/thumbnails/img93.jpg",
+          "panorama": "exported/Block5/img93.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img93.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-94",
+          "label": "img94.jpg",
+          "thumbnail": "exported/thumbnails/img94.jpg",
+          "panorama": "exported/Block5/img94.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img94.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-95",
+          "label": "img95.jpg",
+          "thumbnail": "exported/thumbnails/img95.jpg",
+          "panorama": "exported/Block5/img95.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img95.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-96",
+          "label": "img96.jpg",
+          "thumbnail": "exported/thumbnails/img96.jpg",
+          "panorama": "exported/Block5/img96.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img96.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-98",
+          "label": "img98.jpg",
+          "thumbnail": "exported/thumbnails/img98.jpg",
+          "panorama": "exported/Block5/img98.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img98.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-99",
+          "label": "img99.jpg",
+          "thumbnail": "exported/thumbnails/img99.jpg",
+          "panorama": "exported/Block5/img99.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img99.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-100",
+          "label": "img100.jpg",
+          "thumbnail": "exported/thumbnails/img100.jpg",
+          "panorama": "exported/Block5/img100.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img100.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-101",
+          "label": "img101.jpg",
+          "thumbnail": "exported/thumbnails/img101.jpg",
+          "panorama": "exported/Block5/img101.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img101.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-102",
+          "label": "img102.jpg",
+          "thumbnail": "exported/thumbnails/img102.jpg",
+          "panorama": "exported/Block5/img102.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img102.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-103",
+          "label": "img103.jpg",
+          "thumbnail": "exported/thumbnails/img103.jpg",
+          "panorama": "exported/Block5/img103.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img103.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-104",
+          "label": "img104.jpg",
+          "thumbnail": "exported/thumbnails/img104.jpg",
+          "panorama": "exported/Block5/img104.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img104.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-108",
+          "label": "img108.jpg",
+          "thumbnail": "exported/thumbnails/img108.jpg",
+          "panorama": "exported/Block5/img108.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img108.jpg",
+            "directory": "Block5"
+          }
+        },
+        {
+          "id": "block5-109",
+          "label": "img109.jpg",
+          "thumbnail": "exported/thumbnails/img109.jpg",
+          "panorama": "exported/Block5/img109.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img109.jpg",
+            "directory": "Block5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "out",
+      "label": "Outdoor Areas",
+      "short": "Outdoor Areas",
+      "svgAnchor": {
+        "x": 500,
+        "y": 340
+      },
+      "svgPath": "M 240 240 L 320 240 L 320 320 L 240 320 Z",
+      "labs": [
+        {
+          "id": "out-105",
+          "label": "img105.jpg",
+          "thumbnail": "exported/thumbnails/img105.jpg",
+          "panorama": "exported/OUT/img105.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img105.jpg",
+            "directory": "OUT"
+          }
+        },
+        {
+          "id": "out-116",
+          "label": "img116.jpg",
+          "thumbnail": "exported/thumbnails/img116.jpg",
+          "panorama": "exported/OUT/img116.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img116.jpg",
+            "directory": "OUT"
+          }
+        },
+        {
+          "id": "out-127",
+          "label": "img127.jpg",
+          "thumbnail": "exported/thumbnails/img127.jpg",
+          "panorama": "exported/OUT/img127.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img127.jpg",
+            "directory": "OUT"
+          }
+        },
+        {
+          "id": "out-138",
+          "label": "img138.jpg",
+          "thumbnail": "exported/thumbnails/img138.jpg",
+          "panorama": "exported/OUT/img138.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img138.jpg",
+            "directory": "OUT"
+          }
+        }
+      ]
+    },
+    {
+      "id": "block4",
+      "label": "Block 4",
+      "short": "Block 4",
+      "svgAnchor": {
+        "x": 550,
+        "y": 370
+      },
+      "svgPath": "M 260 250 L 340 250 L 340 330 L 260 330 Z",
+      "labs": [
+        {
+          "id": "block4-112",
+          "label": "img112.jpg",
+          "thumbnail": "exported/thumbnails/img112.jpg",
+          "panorama": "exported/Block4/img112.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img112.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-114",
+          "label": "img114.jpg",
+          "thumbnail": "exported/thumbnails/img114.jpg",
+          "panorama": "exported/Block4/img114.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img114.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-117",
+          "label": "img117.jpg",
+          "thumbnail": "exported/thumbnails/img117.jpg",
+          "panorama": "exported/Block4/img117.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img117.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-118",
+          "label": "img118.jpg",
+          "thumbnail": "exported/thumbnails/img118.jpg",
+          "panorama": "exported/Block4/img118.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img118.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-119",
+          "label": "img119.jpg",
+          "thumbnail": "exported/thumbnails/img119.jpg",
+          "panorama": "exported/Block4/img119.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img119.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-120",
+          "label": "img120.jpg",
+          "thumbnail": "exported/thumbnails/img120.jpg",
+          "panorama": "exported/Block4/img120.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img120.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-121",
+          "label": "img121.jpg",
+          "thumbnail": "exported/thumbnails/img121.jpg",
+          "panorama": "exported/Block4/img121.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img121.jpg",
+            "directory": "Block4"
+          }
+        },
+        {
+          "id": "block4-122",
+          "label": "img122.jpg",
+          "thumbnail": "exported/thumbnails/img122.jpg",
+          "panorama": "exported/Block4/img122.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img122.jpg",
+            "directory": "Block4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "archi",
+      "label": "Architecture Building",
+      "short": "Architecture Building",
+      "svgAnchor": {
+        "x": 600,
+        "y": 400
+      },
+      "svgPath": "M 280 260 L 360 260 L 360 340 L 280 340 Z",
+      "labs": [
+        {
+          "id": "archi-123",
+          "label": "img123.jpg",
+          "thumbnail": "exported/thumbnails/img123.jpg",
+          "panorama": "exported/ARCHI/img123.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img123.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-124",
+          "label": "img124.jpg",
+          "thumbnail": "exported/thumbnails/img124.jpg",
+          "panorama": "exported/ARCHI/img124.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img124.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-125",
+          "label": "img125.jpg",
+          "thumbnail": "exported/thumbnails/img125.jpg",
+          "panorama": "exported/ARCHI/img125.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img125.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-126",
+          "label": "img126.jpg",
+          "thumbnail": "exported/thumbnails/img126.jpg",
+          "panorama": "exported/ARCHI/img126.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img126.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-128",
+          "label": "img128.jpg",
+          "thumbnail": "exported/thumbnails/img128.jpg",
+          "panorama": "exported/ARCHI/img128.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img128.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-131",
+          "label": "img131.jpg",
+          "thumbnail": "exported/thumbnails/img131.jpg",
+          "panorama": "exported/ARCHI/img131.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img131.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-132",
+          "label": "img132.jpg",
+          "thumbnail": "exported/thumbnails/img132.jpg",
+          "panorama": "exported/ARCHI/img132.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img132.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-133",
+          "label": "img133.jpg",
+          "thumbnail": "exported/thumbnails/img133.jpg",
+          "panorama": "exported/ARCHI/img133.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img133.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-135",
+          "label": "img135.jpg",
+          "thumbnail": "exported/thumbnails/img135.jpg",
+          "panorama": "exported/ARCHI/img135.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img135.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-137",
+          "label": "img137.jpg",
+          "thumbnail": "exported/thumbnails/img137.jpg",
+          "panorama": "exported/ARCHI/img137.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img137.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-139",
+          "label": "img139.jpg",
+          "thumbnail": "exported/thumbnails/img139.jpg",
+          "panorama": "exported/ARCHI/img139.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img139.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-141",
+          "label": "img141.jpg",
+          "thumbnail": "exported/thumbnails/img141.jpg",
+          "panorama": "exported/ARCHI/img141.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img141.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-142",
+          "label": "img142.jpg",
+          "thumbnail": "exported/thumbnails/img142.jpg",
+          "panorama": "exported/ARCHI/img142.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img142.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-143",
+          "label": "img143.jpg",
+          "thumbnail": "exported/thumbnails/img143.jpg",
+          "panorama": "exported/ARCHI/img143.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img143.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-146",
+          "label": "img146.jpg",
+          "thumbnail": "exported/thumbnails/img146.jpg",
+          "panorama": "exported/ARCHI/img146.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img146.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-148",
+          "label": "img148.jpg",
+          "thumbnail": "exported/thumbnails/img148.jpg",
+          "panorama": "exported/ARCHI/img148.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img148.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-149",
+          "label": "img149.jpg",
+          "thumbnail": "exported/thumbnails/img149.jpg",
+          "panorama": "exported/ARCHI/img149.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img149.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-150",
+          "label": "img150.jpg",
+          "thumbnail": "exported/thumbnails/img150.jpg",
+          "panorama": "exported/ARCHI/img150.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img150.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-151",
+          "label": "img151.jpg",
+          "thumbnail": "exported/thumbnails/img151.jpg",
+          "panorama": "exported/ARCHI/img151.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img151.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-152",
+          "label": "img152.jpg",
+          "thumbnail": "exported/thumbnails/img152.jpg",
+          "panorama": "exported/ARCHI/img152.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img152.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-153",
+          "label": "img153.jpg",
+          "thumbnail": "exported/thumbnails/img153.jpg",
+          "panorama": "exported/ARCHI/img153.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img153.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-154",
+          "label": "img154.jpg",
+          "thumbnail": "exported/thumbnails/img154.jpg",
+          "panorama": "exported/ARCHI/img154.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img154.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-155",
+          "label": "img155.jpg",
+          "thumbnail": "exported/thumbnails/img155.jpg",
+          "panorama": "exported/ARCHI/img155.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img155.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-156",
+          "label": "img156.jpg",
+          "thumbnail": "exported/thumbnails/img156.jpg",
+          "panorama": "exported/ARCHI/img156.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img156.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-157",
+          "label": "img157.jpg",
+          "thumbnail": "exported/thumbnails/img157.jpg",
+          "panorama": "exported/ARCHI/img157.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img157.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-158",
+          "label": "img158.jpg",
+          "thumbnail": "exported/thumbnails/img158.jpg",
+          "panorama": "exported/ARCHI/img158.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img158.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-159",
+          "label": "img159.jpg",
+          "thumbnail": "exported/thumbnails/img159.jpg",
+          "panorama": "exported/ARCHI/img159.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img159.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-161",
+          "label": "img161.jpg",
+          "thumbnail": "exported/thumbnails/img161.jpg",
+          "panorama": "exported/ARCHI/img161.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img161.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-162",
+          "label": "img162.jpg",
+          "thumbnail": "exported/thumbnails/img162.jpg",
+          "panorama": "exported/ARCHI/img162.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img162.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-163",
+          "label": "img163.jpg",
+          "thumbnail": "exported/thumbnails/img163.jpg",
+          "panorama": "exported/ARCHI/img163.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img163.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-164",
+          "label": "img164.jpg",
+          "thumbnail": "exported/thumbnails/img164.jpg",
+          "panorama": "exported/ARCHI/img164.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img164.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-165",
+          "label": "img165.jpg",
+          "thumbnail": "exported/thumbnails/img165.jpg",
+          "panorama": "exported/ARCHI/img165.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img165.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-166",
+          "label": "img166.jpg",
+          "thumbnail": "exported/thumbnails/img166.jpg",
+          "panorama": "exported/ARCHI/img166.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img166.jpg",
+            "directory": "ARCHI"
+          }
+        },
+        {
+          "id": "archi-167",
+          "label": "img167.jpg",
+          "thumbnail": "exported/thumbnails/img167.jpg",
+          "panorama": "exported/ARCHI/img167.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img167.jpg",
+            "directory": "ARCHI"
+          }
+        }
+      ]
+    },
+    {
+      "id": "outside",
+      "label": "Outside Areas",
+      "short": "Outside",
+      "svgAnchor": {
+        "x": 400,
+        "y": 320
+      },
+      "svgPath": "M 220 230 L 300 230 L 300 310 L 220 310 Z",
+      "labs": [
+        {
+          "id": "outside-105",
+          "label": "Open Auditorium",
+          "thumbnail": "exported/thumbnails/img105.jpg",
+          "panorama": "exported/OUT/img105.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img105.jpg",
+            "directory": "OUT"
+          }
+        },
+        {
+          "id": "outside-116",
+          "label": "Student Square",
+          "thumbnail": "exported/thumbnails/img116.jpg",
+          "panorama": "exported/OUT/img116.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img116.jpg",
+            "directory": "OUT"
+          }
+        },
+        {
+          "id": "outside-127",
+          "label": "img127.jpg",
+          "thumbnail": "exported/thumbnails/img127.jpg",
+          "panorama": "exported/OUT/img127.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img127.jpg",
+            "directory": "OUT"
+          }
+        },
+        {
+          "id": "outside-138",
+          "label": "img138.jpg",
+          "thumbnail": "exported/thumbnails/img138.jpg",
+          "panorama": "exported/OUT/img138.jpg",
+          "type": "equirectangular",
+          "meta": {
+            "filename": "img138.jpg",
+            "directory": "OUT"
+          }
+        }
+      ]
+    }
+  ]
+}
